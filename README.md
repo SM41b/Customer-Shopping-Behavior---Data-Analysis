@@ -36,7 +36,8 @@ flowchart LR
 
 ## 📊 Dashboard
 
-![Customer Behavior Dashboard](images/dashboard.png)
+<img width="1374" height="770" alt="customer-bi dashboard" src="https://github.com/user-attachments/assets/74f33e92-941b-4b00-a763-49a2f9e4fe88" />
+
 
 The dashboard includes:
 
@@ -118,28 +119,6 @@ The dashboard includes:
 
 ---
 
-## 📁 Repository Structure
-
-```
-├── data/
-│   └── customer_shopping_behavior.csv
-├── notebooks/
-│   └── customer_shopping_behavior.ipynb   # Python cleaning & loading
-├── sql/
-│   └── analysis_queries.sql               # 10 business queries
-├── dashboard/
-│   └── customer_behavior_dashboard.pbix   # Power BI file
-├── images/
-│   └── dashboard.png
-├── report/
-│   └── Customer_Shopping_Behavior_Analysis_Report.pdf
-└── README.md
-```
-
-> Adjust file names to match your repository.
-
----
-
 ## 🚀 How to Run
 
 1. **Clone the repository**
@@ -159,15 +138,8 @@ The dashboard includes:
 5. **Run the SQL queries** from `sql/analysis_queries.sql` in pgAdmin or `psql`.
 6. **Open the `.pbix` file** in Power BI Desktop to explore the dashboard.
 
-> 🔒 Avoid committing real database passwords. Use environment variables instead.
-
 ---
 
-## 📄 Full Report
-
-A detailed write-up with all query results and recommendations is available in [`report/Customer_Shopping_Behavior_Analysis_Report.pdf`](report/Customer_Shopping_Behavior_Analysis_Report.pdf).
-
----
 
 ## 🛠️ Tech Stack
 
@@ -176,7 +148,5 @@ A detailed write-up with all query results and recommendations is available in [
 ---
 
 <div align="center">
-
-⭐ If you found this project useful, consider giving it a star!
 
 </div>
